@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE4E0C282E0B669200442234 /* ArduinoControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0C272E0B669200442234 /* ArduinoControllerView.swift */; };
+		CE4E0C2C2E0C94F000442234 /* FeedLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4E0C2B2E0C94F000442234 /* FeedLogView.swift */; };
+		CE6B4FDC2E0608FC0045752A /* NetworkScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B4FDB2E0608FC0045752A /* NetworkScanView.swift */; };
+		CE6B4FDE2E06234D0045752A /* ScanningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6B4FDD2E06234D0045752A /* ScanningView.swift */; };
+		CE8073842DEF660900CA37FC /* Display_for_ProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8073832DEF660900CA37FC /* Display_for_ProjectApp.swift */; };
+		CE8073882DEF660B00CA37FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE8073872DEF660B00CA37FC /* Assets.xcassets */; };
+		CE80738B2DEF660B00CA37FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE80738A2DEF660B00CA37FC /* Preview Assets.xcassets */; };
+		CE8073962DEF850F00CA37FC /* ManualFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8073952DEF850F00CA37FC /* ManualFeed.swift */; };
+		CE8073982DEF854E00CA37FC /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8073972DEF854E00CA37FC /* DeviceData.swift */; };
+		CE80739A2DEF858200CA37FC /* SetFeedingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8073992DEF858200CA37FC /* SetFeedingTime.swift */; };
+		CE80739C2DEF85BC00CA37FC /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80739B2DEF85BC00CA37FC /* AnimalData.swift */; };
+		CE80739E2DF0E72200CA37FC /* AutoFeedingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80739D2DF0E72200CA37FC /* AutoFeedingView.swift */; };
+		CEA32A322E0E259100E5A754 /* DiagnosticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA32A312E0E259100E5A754 /* DiagnosticsView.swift */; };
+		CEA32A4F2E19CAA300E5A754 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = CEA32A4E2E19CAA300E5A754 /* FirebaseAnalytics */; };
+		CEA32A512E19CAA300E5A754 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = CEA32A502E19CAA300E5A754 /* FirebaseMessaging */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE4E0C272E0B669200442234 /* ArduinoControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduinoControllerView.swift; sourceTree = "<group>"; };
+		CE4E0C2B2E0C94F000442234 /* FeedLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLogView.swift; sourceTree = "<group>"; };
+		CE6B4FDB2E0608FC0045752A /* NetworkScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkScanView.swift; sourceTree = "<group>"; };
+		CE6B4FDD2E06234D0045752A /* ScanningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanningView.swift; sourceTree = "<group>"; };
+		CE8073802DEF660900CA37FC /* Arduino Feeder App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Arduino Feeder App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8073832DEF660900CA37FC /* Display_for_ProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display_for_ProjectApp.swift; sourceTree = "<group>"; };
+		CE8073872DEF660B00CA37FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE80738A2DEF660B00CA37FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CE8073952DEF850F00CA37FC /* ManualFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualFeed.swift; sourceTree = "<group>"; };
+		CE8073972DEF854E00CA37FC /* DeviceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceData.swift; sourceTree = "<group>"; };
+		CE8073992DEF858200CA37FC /* SetFeedingTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetFeedingTime.swift; sourceTree = "<group>"; };
+		CE80739B2DEF85BC00CA37FC /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
+		CE80739D2DF0E72200CA37FC /* AutoFeedingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoFeedingView.swift; sourceTree = "<group>"; };
+		CE8073A12DF1372B00CA37FC /* Display-for-Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Display-for-Project-Info.plist"; sourceTree = SOURCE_ROOT; };
+		CEA32A312E0E259100E5A754 /* DiagnosticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE80737D2DEF660900CA37FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA32A512E19CAA300E5A754 /* FirebaseMessaging in Frameworks */,
+				CEA32A4F2E19CAA300E5A754 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE8073772DEF660900CA37FC = {
+			isa = PBXGroup;
+			children = (
+				CE8073822DEF660900CA37FC /* Display for Project */,
+				CE8073812DEF660900CA37FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE8073812DEF660900CA37FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE8073802DEF660900CA37FC /* Arduino Feeder App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE8073822DEF660900CA37FC /* Display for Project */ = {
+			isa = PBXGroup;
+			children = (
+				CE8073832DEF660900CA37FC /* Display_for_ProjectApp.swift */,
+				CE6B4FDB2E0608FC0045752A /* NetworkScanView.swift */,
+				CE6B4FDD2E06234D0045752A /* ScanningView.swift */,
+				CE4E0C272E0B669200442234 /* ArduinoControllerView.swift */,
+				CE80739D2DF0E72200CA37FC /* AutoFeedingView.swift */,
+				CE8073992DEF858200CA37FC /* SetFeedingTime.swift */,
+				CE8073952DEF850F00CA37FC /* ManualFeed.swift */,
+				CE8073972DEF854E00CA37FC /* DeviceData.swift */,
+				CEA32A312E0E259100E5A754 /* DiagnosticsView.swift */,
+				CE80739B2DEF85BC00CA37FC /* AnimalData.swift */,
+				CE4E0C2B2E0C94F000442234 /* FeedLogView.swift */,
+				CE8073A12DF1372B00CA37FC /* Display-for-Project-Info.plist */,
+				CE8073872DEF660B00CA37FC /* Assets.xcassets */,
+				CE8073892DEF660B00CA37FC /* Preview Content */,
+			);
+			path = "Display for Project";
+			sourceTree = "<group>";
+		};
+		CE8073892DEF660B00CA37FC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CE80738A2DEF660B00CA37FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE80737F2DEF660900CA37FC /* Arduino Feeder App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE80738E2DEF660B00CA37FC /* Build configuration list for PBXNativeTarget "Arduino Feeder App" */;
+			buildPhases = (
+				CE80737C2DEF660900CA37FC /* Sources */,
+				CE80737D2DEF660900CA37FC /* Frameworks */,
+				CE80737E2DEF660900CA37FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Arduino Feeder App";
+			packageProductDependencies = (
+				CEA32A4E2E19CAA300E5A754 /* FirebaseAnalytics */,
+				CEA32A502E19CAA300E5A754 /* FirebaseMessaging */,
+			);
+			productName = "Display for Project";
+			productReference = CE8073802DEF660900CA37FC /* Arduino Feeder App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE8073782DEF660900CA37FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CE80737F2DEF660900CA37FC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CE80737B2DEF660900CA37FC /* Build configuration list for PBXProject "Arduino Feeder App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE8073772DEF660900CA37FC;
+			packageReferences = (
+				CEA32A4D2E19CAA300E5A754 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = CE8073812DEF660900CA37FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE80737F2DEF660900CA37FC /* Arduino Feeder App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE80737E2DEF660900CA37FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE80738B2DEF660B00CA37FC /* Preview Assets.xcassets in Resources */,
+				CE8073882DEF660B00CA37FC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE80737C2DEF660900CA37FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE4E0C282E0B669200442234 /* ArduinoControllerView.swift in Sources */,
+				CE80739A2DEF858200CA37FC /* SetFeedingTime.swift in Sources */,
+				CE6B4FDE2E06234D0045752A /* ScanningView.swift in Sources */,
+				CE80739E2DF0E72200CA37FC /* AutoFeedingView.swift in Sources */,
+				CE6B4FDC2E0608FC0045752A /* NetworkScanView.swift in Sources */,
+				CE80739C2DEF85BC00CA37FC /* AnimalData.swift in Sources */,
+				CE8073982DEF854E00CA37FC /* DeviceData.swift in Sources */,
+				CE4E0C2C2E0C94F000442234 /* FeedLogView.swift in Sources */,
+				CE8073842DEF660900CA37FC /* Display_for_ProjectApp.swift in Sources */,
+				CEA32A322E0E259100E5A754 /* DiagnosticsView.swift in Sources */,
+				CE8073962DEF850F00CA37FC /* ManualFeed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CE80738C2DEF660B00CA37FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE80738D2DEF660B00CA37FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE80738F2DEF660B00CA37FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Display for Project/Preview Content\"";
+				DEVELOPMENT_TEAM = FB58WX54S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Display-for-Project-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Groundmaster.ArduinoFeeder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE8073902DEF660B00CA37FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Display for Project/Preview Content\"";
+				DEVELOPMENT_TEAM = FB58WX54S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Display-for-Project-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Groundmaster.ArduinoFeeder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE80737B2DEF660900CA37FC /* Build configuration list for PBXProject "Arduino Feeder App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80738C2DEF660B00CA37FC /* Debug */,
+				CE80738D2DEF660B00CA37FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE80738E2DEF660B00CA37FC /* Build configuration list for PBXNativeTarget "Arduino Feeder App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE80738F2DEF660B00CA37FC /* Debug */,
+				CE8073902DEF660B00CA37FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CEA32A4D2E19CAA300E5A754 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CEA32A4E2E19CAA300E5A754 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA32A4D2E19CAA300E5A754 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		CEA32A502E19CAA300E5A754 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CEA32A4D2E19CAA300E5A754 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CE8073782DEF660900CA37FC /* Project object */;
+}
